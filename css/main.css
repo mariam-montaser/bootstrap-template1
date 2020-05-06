@@ -1,0 +1,428 @@
+body{ padding-top: 70px}
+
+h1, h2, h3, h4{
+    font-family: 'Droid Sans', sans-serif
+}
+
+/**************start override**************/
+
+
+/***************start navbar***************/
+
+.navbar{min-height: 70px}
+
+.navbar-toggle{margin-top: 18px}
+
+.navbar-inverse .navbar-brand{
+    color: #aaa;
+    font-size: 30px;
+    line-height: 40px
+}
+
+.navbar-inverse .navbar-brand b{
+    color: #fff;
+    padding: 0 10px;
+    display: inline-block;
+    margin-right: 5px
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #aaa;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 18px
+}
+
+
+.navbar-right .dropdown-menu{
+    left: 0;
+    right: auto
+}
+
+.dropdown-menu{
+    background-color: #222;
+    min-width: 200px
+}
+
+.dropdown-menu > li > a{
+    color: #aaa;
+    padding: 7px 20px
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+    color: #fff;
+    padding-left: 30px
+}
+
+/****************end navbar****************/
+
+/**************start carousel**************/
+
+.carousel-caption{
+    bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(3, 3, 3, .5)
+}
+ 
+.carousel-indicators{ bottom: 0}
+
+.carousel-indicators .active{
+    background-color: #e41b17;
+    border: 1px solid #e41b17
+}
+
+.carousel-inner > .item > img{width: 100%}
+/***************end carousel***************/
+
+/***************end override***************/
+
+/****************start about***************/
+
+.about p{
+    color: #888;
+    margin-top: 15px;
+    font-size: 25px
+}
+
+/****************end about*****************/
+
+/**************start features**************/
+
+.features h1{margin-bottom: 50px}
+
+.features .feat{margin-bottom: 30px}
+
+.features .feat span.glyphicon{
+    font-size: 20px;
+    margin-bottom: 10px
+}
+
+.features .feat p{line-height: 2}
+
+/***************end features***************/
+
+/************start testemonials************/
+
+.testemonials span{font-size: 20px}
+
+.testemonials p{
+    line-height: 2;
+    margin-bottom: 10px
+}
+
+.testemonials .carousel-inner{min-height: 175px}
+
+.testemonials .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto
+}
+
+.testemonials .carousel-indicators li{
+    text-indent: 0;
+    width: 50px;
+    height: 50px;
+    opacity: .5;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px 5px
+}
+
+.testemonials .carousel-indicators li.active{
+    opacity: 1;
+    background: none
+}
+
+.testemonials .carousel-indicators li img{ max-width: 100%}
+
+/*************end testemonials*************/
+
+/**************start p-table***************/
+
+.p-table .p-box{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px
+}
+
+.p-table .p-box:hover p{
+    border: 3px solid #ddd;
+    transform: scale(1.1,1.1) rotate(360deg)
+}
+
+.p-table .p-box h2{
+    margin-bottom: 10px;
+    margin-top: 5px
+}
+
+.p-table .p-box p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 50%;
+    line-height: 100px;
+    transition-duration: .7s 
+}
+
+.p-table .p-box ul{
+    line-height: 250%;
+    font-size: 18px
+}
+
+.p-table .p-box a{margin-bottom: 5px}
+/***************end p-table****************/
+
+/**************start our-team**************/
+
+.our-team{
+    background: url('../images/307.jpg') no-repeat center center fixed;
+    min-height: 600px
+}
+
+.our-team .over{
+    background-color: rgba(0, 0, 0, .7);
+    min-height: 600px;
+    color: #fff
+}
+
+.our-team .member{margin-bottom: 50px}
+/***************end our-team***************/
+
+/**************start subscribe*************/
+
+.subscribe h2{
+    letter-spacing: 2;
+    color: #888
+}
+
+.subscribe p{margin-bottom: 30px}
+
+.subscribe .form-control{
+    width: 300px;
+    border-radius: 0;
+    margin-right: -5px
+}
+
+.subscribe button{border-radius: 0}
+
+/***************end subscribe**************/
+
+/*************start statistices************/
+
+.statistices{
+    background: url('../images/375.jpg')no-repeat center center fixed;
+    min-height: 300px}
+
+.statistices .over-l{
+    background-color: rgba(0, 0, 0, .8);
+    min-height: 300px;
+    color: #b6b5b5
+}
+
+.statistices .stats{margin-bottom: 50px}
+
+.statistices .stats:hover{color: #fff}
+
+.statistices p{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-weight: 600
+}
+
+.statistices span{font-size: 20px}
+/**************end statistices*************/
+
+/**************start our-skills************/
+
+.our-skills h3{
+    margin-top: 0;
+    font-weight: bold
+}
+
+.our-skills .progress{height: 36px}
+
+.our-skills .progress-bar{
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold
+}
+/***************end our-skills*************/
+
+/**************start contact-us************/
+
+.contact-us{
+    background: url('../images/3.jpg') no-repeat center center fixed;
+    min-height: 300px
+}
+
+.contact-us .over-lay{
+    background-color: rgba(0, 0, 0, .7);
+    min-height: 300px;
+    color: #ddd
+}
+
+.contact-us p{margin-bottom: 50px}
+
+.contact-us textarea{height: 108px}
+
+.contact-us textarea,
+.contact-us input[type='text']{
+    background-color: rgba(82, 87, 87, .6);
+    color: #fff;
+    border: none
+}
+
+/***************end contact-us*************/
+
+/***************start clients**************/
+
+.clients img{
+    opacity: .4;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+/****************end clients***************/
+
+/***************start footer***************/
+
+footer{
+    background-color: #111;
+    color: #aaa;
+    padding-top: 30px
+}
+
+footer h3{
+    letter-spacing: 1px;
+    margin: 40px 0 20px
+}
+
+footer ul.links,
+footer ul.social{overflow: hidden}
+
+footer ul.links li{
+    float: left;
+    width: 33.33333%;
+    padding: 5px
+}
+
+footer ul.social li{
+    float: left;
+    margin-right: 5px;
+    opacity: .7
+}
+
+footer .img-thumbnail{
+    background-color: rgba(0, 0, 0, .3);
+    border: 1px solid #444;
+    margin-bottom: 5px
+}
+
+footer .copy{
+    background-color: #333;
+    color: #aaa;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+/****************end footer****************/
+
+/***************start options**************/
+
+.options{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999
+}
+
+.options .color-option{
+    float: left;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    display: none
+}
+
+.options .color-option ul li{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-block
+}
+
+.options .option{
+    color: #fff;
+    padding: 5px;
+    cursor: pointer
+}
+/****************end options***************/
+
+/***************start options**************/
+/****************end options***************/
+
+/***************start options**************/
+
+.top{
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+    z-index: 9999
+}
+
+/****************end options***************/
+
+/***************start grouping*************/
+
+.dropdown-menu > li > a,
+.testemonials .carousel-indicators li,
+.statistices .stats,
+.clients img,
+footer ul.social li{
+    transition: all .5s ease-in-out
+}
+
+.statistices, .contact-us, .our-team{
+    background-size: cover;
+}
+
+.statistices h2, .our-skills h2,
+.subscribe h2, .our-team h2,
+.p-table h2, .testemonials h2{
+    margin-bottom: 50px
+}
+
+.about, .features, .testemonials,
+.p-table, .our-team .over, .subscribe,
+.statistices .over-l, .our-skills,
+.contact-us .over-lay, .clients{
+    padding-bottom: 70px;
+    padding-top: 70px
+}
+
+.p-table, .clients, .features{
+    background-color: #eee
+}
+
+.clients img:hover, footer ul.social li:hover{opacity: 1}
+/****************end grouping**************/
+
+
+

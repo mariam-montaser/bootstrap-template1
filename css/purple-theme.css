@@ -1,0 +1,43 @@
+/********************start purple-theme********************/
+
+/*navbar*/
+
+.navbar-inverse .navbar-brand b,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu .divider,
+.options .option,
+.top{
+    
+    background-color: #a506a0
+}
+
+.about h1 span,
+.testemonials span,
+footer h3,
+footer .copy span{
+    color: #a506a0;
+
+}
+
+/*navbar*/
+
+.dropdown-menu{
+    border-top: 3px solid #a506a0;
+}
+
+
+/*testemonials*/
+
+.testemonials .carousel-indicators li.active{
+    border: 3px solid #a506a0
+}
+
+/*options*/
+
+.options .color-option{
+    border: 5px solid #a506a0;
+}
